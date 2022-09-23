@@ -10,8 +10,8 @@ $(document).ready(function(){
     //adding an event lister to the save button 
     $(".saveBtn").on("click", function(){
         var time = $(this).parent().attr("id");
-        var text = $(this).siblings("description");
-
+        var text = $(this).siblings(".description").val();
+            console.log(text, time)
         //saving the text for the event in the logocal starage 
         localStorage.setItem(time, text);
     })

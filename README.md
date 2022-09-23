@@ -14,9 +14,12 @@
 ---
 ## Link To Deployed Webpage
  https://eugeneisingizwe.github.io/Work-Day-Scheduler/
+
 ## Webpage Screenshoot
 
+The following animation demonstrates the application functionality:
 
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Develop/image/screenshot.png)
 ## User Story
 
 ```md
